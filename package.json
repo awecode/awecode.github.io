@@ -1,0 +1,13 @@
+{
+  "name": "Awecode",
+  "version": "2.0.0",
+  "description": "Wesbite for Awecode",
+  "main": "index.js",
+  "repository": "https://github.com/awecode/awecode.com",
+  "author": "Dipesh Acharya",
+  "license": "MIT",
+  "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.1",
+    "webpack": "^3.6.0"
+  }
+}
