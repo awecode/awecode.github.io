@@ -24,6 +24,8 @@ figure {
 section.alt {
   background: #222;
   color: #ddd; }
+  section.alt a {
+    color: #ddd; }
 
 #home {
   height: 100%;

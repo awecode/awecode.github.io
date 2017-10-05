@@ -30,6 +30,10 @@ figure {
 section.alt {
   background: #222;
   color: #ddd;
+
+  a {
+    color: #ddd;
+  }
 }
 
 #home {
@@ -48,11 +52,7 @@ section.alt {
   display: inline-block;
   //float: left;
   padding: 1rem 2rem 1rem 1rem;
-  //border: 1px solid #333;
-  //border-top: none;
-  //border-bottom: none;
   margin: 1rem;
-  //min-height: 350px;
   text-align: left;
 
   h3 {
@@ -63,11 +63,7 @@ section.alt {
     list-style: none;
     padding-left: 1rem;
   }
-  li{
+  li {
     padding-top: 0.4rem;
   }
-}
-
-.inner{
-  //text-align: center;
 }
