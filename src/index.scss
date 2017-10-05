@@ -96,13 +96,27 @@ section.alt {
   }
 }
 
-#expertise{
+#expertise {
   text-align: center;
-  > div{
+  > div {
     display: inline-block;
-  }
-  img{
-    height: 50px;
     padding: 2rem;
+  }
+  img {
+    height: 50px;
+  }
+}
+
+#team {
+  text-align: center;
+  > div {
+    display: inline-block;
+    padding: 2rem;
+  }
+  img {
+    border-radius: 50%;
+    border: 10px solid #E4E3E3;
+    height: 6rem;
+    width: 6rem;
   }
 }

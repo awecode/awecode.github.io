@@ -73,7 +73,18 @@ section.alt {
 #expertise {
   text-align: center; }
   #expertise > div {
-    display: inline-block; }
-  #expertise img {
-    height: 50px;
+    display: inline-block;
     padding: 2rem; }
+  #expertise img {
+    height: 50px; }
+
+#team {
+  text-align: center; }
+  #team > div {
+    display: inline-block;
+    padding: 2rem; }
+  #team img {
+    border-radius: 50%;
+    border: 10px solid #E4E3E3;
+    height: 6rem;
+    width: 6rem; }
