@@ -1,3 +1,5 @@
+@import 'hover/imagehover.scss';
+
 html {
   height: 100%;
 }
@@ -23,7 +25,7 @@ section {
   padding: 1rem;
 }
 
-section.alt{
+section.alt {
   background: #222;
   color: #ddd;
 }
@@ -35,12 +37,12 @@ section.alt{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  h1{
+  h1 {
     color: #111;
   }
 }
 
-.work{
+.work {
   display: inline-block;
   padding: 1rem;
   text-align: center;

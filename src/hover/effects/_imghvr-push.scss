@@ -1,0 +1,21 @@
+/* imghvr-push-*
+   ----------------------------- */
+[class^='imghvr-push-'], [class*=' imghvr-push-'] {
+	&:hover {
+		figcaption {
+			@include transform(translate(0,0));
+		}
+	}
+}
+  /* imghvr-push-down
+   ----------------------------- */
+.imghvr-push-down {
+	figcaption {
+		@include transform(translateY(-100%));
+	}
+	&:hover {
+		> img {
+			@include transform(translateY(100%));
+		}
+	}
+}
