@@ -69,3 +69,11 @@ section.alt {
   #clients .partners > div {
     display: inline-block;
     padding: 2rem; }
+
+#expertise {
+  text-align: center; }
+  #expertise > div {
+    display: inline-block; }
+  #expertise img {
+    height: 50px;
+    padding: 2rem; }
