@@ -50,6 +50,16 @@ section.alt {
   .work li {
     padding-top: 0.4rem; }
 
-#clients > div {
+#clients .logos > div {
   display: inline-block;
   padding: 1.2rem; }
+
+#clients .gov-header {
+  text-align: center; }
+  #clients .gov-header h4 {
+    display: inline-block;
+    vertical-align: top; }
+
+#clients ul {
+  display: inline-block;
+  list-style: none; }

@@ -69,8 +69,20 @@ section.alt {
 }
 
 #clients {
-  > div {
+  .logos > div {
     display: inline-block;
     padding: 1.2rem;
+  }
+  .gov-header {
+    text-align: center;
+    h4 {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+  }
+  ul {
+    display: inline-block;
+    list-style: none;
   }
 }
