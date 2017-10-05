@@ -16,7 +16,7 @@ h1 {
   font-size: 2rem; }
 
 section {
-  padding: 1rem 1rem 1rem 3rem; }
+  padding: 1rem; }
 
 figure {
   border: 1px solid #fff; }
@@ -33,7 +33,8 @@ section.alt {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-top: 5%; }
   #home h1 {
     color: #111; }
 
@@ -88,3 +89,13 @@ section.alt {
     border: 10px solid #E4E3E3;
     height: 6rem;
     width: 6rem; }
+
+#contact > div {
+  display: inline-block;
+  padding: 2rem; }
+
+#contact #map-canvas {
+  margin: 0;
+  padding: 0;
+  min-height: 500px;
+  min-width: 700px; }

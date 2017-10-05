@@ -73,6 +73,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__index_scss__);
 
 
+function init_map() {
+  var position = new google.maps.LatLng(27.686149, 85.331765);
+  var map = new google.maps.Map(document.getElementById("map-canvas"), {
+    zoom: 16,
+    center: position,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+  var marker = new google.maps.Marker({map: map, position: position});
+}
+
+window.init_map = init_map;
+
+// google.maps.event.addDomListener(window, 'load', init_map);
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
