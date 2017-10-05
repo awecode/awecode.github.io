@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: #444;
+  height: 100%;
+  font-family: 'Montserrat', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+h1 {
+  color: #111;
+  font-size: 2rem;
+}
+
+section {
+  text-align: center;
+}
+
+#home {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
