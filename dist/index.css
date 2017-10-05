@@ -13,7 +13,6 @@
   display: inline-block;
   margin: 0;
   max-width: 100%;
-  background-color: #2266a5;
   color: #fff;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
@@ -28,7 +27,6 @@
     vertical-align: top;
     max-width: 100%; }
   [class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
-    background-color: #135796;
     padding: 30px;
     position: absolute;
     top: 0;
@@ -99,6 +97,9 @@ h1 {
 
 section {
   padding: 1rem; }
+
+figure {
+  border: 1px solid #fff; }
 
 section.alt {
   background: #222;

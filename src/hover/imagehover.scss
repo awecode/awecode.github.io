@@ -14,8 +14,6 @@
 // Default variables
 @import "variables";
 
-// Custom variables
-@import "custom";
 
 @mixin fill($padding: 0) {
   position: absolute;
@@ -30,7 +28,7 @@
   display: inline-block;
   margin: 0;
   max-width: 100%;
-  background-color: $image-bg;
+  //background-color: $image-bg;
   color: #fff;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
@@ -42,7 +40,7 @@
     max-width: 100%;
   }
     figcaption {
-      background-color: $figcaption-bg;
+      //background-color: $figcaption-bg;
       padding: $figcaption-padding;
       @include fill;
       color: $text-color;
