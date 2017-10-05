@@ -85,4 +85,13 @@ section.alt {
     display: inline-block;
     list-style: none;
   }
+
+  .partners {
+    text-align: center;
+
+    > div {
+      display: inline-block;
+      padding: 2rem;
+    }
+  }
 }
