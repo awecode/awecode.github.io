@@ -1,90 +1,10 @@
-@charset "UTF-8";
-/*!
- * ImageHover.css - http://www.imagehover.io
- * Version 1.0
- * Author: Ciarán Walsh
-
- * Made available under a MIT License:
- * http://www.opensource.org/licenses/mit-license.php
-
- */
-[class^='imghvr-'], [class*=' imghvr-'] {
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  max-width: 100%;
-  color: #fff;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0); }
-  [class^='imghvr-'] > img, [class*=' imghvr-'] > img {
-    vertical-align: top;
-    max-width: 100%; }
-  [class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
-    padding: 30px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #ffffff; }
-    [class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {
-      color: #ffffff; }
-  [class^='imghvr-'] a, [class*=' imghvr-'] a {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1; }
-
-[class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before,
-[class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,
-[class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,
-[class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  transition: all 0.35s ease; }
-
-/* imghvr-push-*
-   ----------------------------- */
-[class^='imghvr-push-']:hover figcaption, [class*=' imghvr-push-']:hover figcaption {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0); }
-
-/* imghvr-push-down
-   ----------------------------- */
-.imghvr-push-down figcaption {
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%); }
-
-.imghvr-push-down:hover > img {
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  -o-transform: translateY(100%);
-  transform: translateY(100%); }
-
 html {
   height: 100%; }
 
 body {
   color: #444;
   height: 100%;
-  font-family: 'Montserrat', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-family: 'Titillium Web', 'Montserrat', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   padding: 0;
   margin: 0; }
 
@@ -117,5 +37,13 @@ section.alt {
 
 .work {
   display: inline-block;
-  padding: 1rem;
-  text-align: center; }
+  padding: 1rem 2rem 1rem 1rem;
+  margin: 1rem;
+  text-align: left; }
+  .work h3 {
+    border-bottom: 1px solid #444; }
+  .work ul {
+    list-style: none;
+    padding-left: 1rem; }
+  .work li {
+    padding-top: 0.4rem; }
