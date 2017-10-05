@@ -16,7 +16,7 @@ h1 {
   font-size: 2rem; }
 
 section {
-  padding: 1rem; }
+  padding: 1rem 1rem 1rem 3rem; }
 
 figure {
   border: 1px solid #fff; }
@@ -49,3 +49,7 @@ section.alt {
     padding-left: 1rem; }
   .work li {
     padding-top: 0.4rem; }
+
+#clients > div {
+  display: inline-block;
+  padding: 1.2rem; }

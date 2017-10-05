@@ -20,7 +20,7 @@ h1 {
 }
 
 section {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 3rem;
 }
 
 figure {
@@ -65,5 +65,12 @@ section.alt {
   }
   li {
     padding-top: 0.4rem;
+  }
+}
+
+#clients {
+  > div {
+    display: inline-block;
+    padding: 1.2rem;
   }
 }
