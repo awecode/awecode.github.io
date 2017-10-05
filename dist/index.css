@@ -13,15 +13,26 @@ a {
   color: #444; }
 
 h1 {
-  color: #111;
   font-size: 2rem; }
 
 section {
-  text-align: center; }
+  padding: 1rem; }
+
+section.alt {
+  background: #222;
+  color: #ddd; }
 
 #home {
   height: 100%;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  #home h1 {
+    color: #111; }
+
+.work {
+  display: inline-block;
+  padding: 1rem;
+  text-align: center; }
