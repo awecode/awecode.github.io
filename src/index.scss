@@ -89,6 +89,7 @@ section.alt {
   ul {
     display: inline-block;
     list-style: none;
+    text-align: left;
   }
 
   .partners {
@@ -123,6 +124,7 @@ section.alt {
 }
 
 #contact {
+  padding-bottom: 0;
   > div {
     //width: 45%;
     display: inline-block;
@@ -135,19 +137,19 @@ section.alt {
     min-width: 700px;
     //height: 100%;
   }
-  .contact-info >div{
+  .contact-info > div {
     display: inline-block;
     padding: 2rem;
   }
 }
 
-form{
+form {
   //width: 80%;
 }
 
-input,textarea{
+input, textarea {
   display: block;
-  min-width:18rem;
+  min-width: 18rem;
   margin-bottom: 1rem;
   line-height: 1.5rem;
   padding: 1rem;
@@ -155,4 +157,17 @@ input,textarea{
 
 h1, h3, hr, .w-100 {
   width: 100%;
+}
+
+.social {
+  padding-bottom: 0 !important;
+  img {
+    //vertical-align: bottom;
+    background: #eee;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+
+  }
 }

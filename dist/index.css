@@ -67,7 +67,8 @@ section.alt {
 
 #clients ul {
   display: inline-block;
-  list-style: none; }
+  list-style: none;
+  text-align: left; }
 
 #clients .partners > div {
   display: inline-block;
@@ -90,19 +91,19 @@ section.alt {
   height: 6rem;
   width: 6rem; }
 
-#contact > div {
-  display: inline-block;
-  padding: 2rem; }
-
-#contact #map-canvas {
-  margin: 0;
-  padding: 0;
-  min-height: 500px;
-  min-width: 700px; }
-
-#contact .contact-info > div {
-  display: inline-block;
-  padding: 2rem; }
+#contact {
+  padding-bottom: 0; }
+  #contact > div {
+    display: inline-block;
+    padding: 2rem; }
+  #contact #map-canvas {
+    margin: 0;
+    padding: 0;
+    min-height: 500px;
+    min-width: 700px; }
+  #contact .contact-info > div {
+    display: inline-block;
+    padding: 2rem; }
 
 input, textarea {
   display: block;
@@ -113,3 +114,11 @@ input, textarea {
 
 h1, h3, hr, .w-100 {
   width: 100%; }
+
+.social {
+  padding-bottom: 0 !important; }
+  .social img {
+    background: #eee;
+    opacity: 0.5; }
+    .social img:hover {
+      opacity: 1; }
