@@ -12,4 +12,6 @@ function init_map() {
 
 window.init_map = init_map;
 
-// google.maps.event.addDomListener(window, 'load', init_map);
+import LazyLoad from '../node_modules/vanilla-lazyload/dist/lazyload.min'
+
+var myLazyLoad = new LazyLoad();
