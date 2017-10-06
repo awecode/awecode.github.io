@@ -32,7 +32,7 @@ section.alt {
     color: #ddd; }
 
 #home {
-  height: calc(95% - 2rem);
+  height: 99%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,8 +97,7 @@ section.alt {
   #contact #map-canvas {
     margin: 0;
     padding: 0;
-    min-height: 500px;
-    min-width: 700px; }
+    min-height: 500px; }
   #contact .contact-info > div {
     display: inline-block;
     padding: 2rem; }
@@ -106,9 +105,9 @@ section.alt {
 input, textarea {
   display: block;
   min-width: 18rem;
-  margin-bottom: 1rem;
   line-height: 1.5rem;
-  padding: 1rem; }
+  padding: 1rem;
+  margin: 1rem auto; }
 
 h1, h3, hr, .w-100 {
   width: 100%; }
@@ -120,3 +119,11 @@ h1, h3, hr, .w-100 {
     opacity: 0.5; }
     .social img:hover {
       opacity: 1; }
+
+@media screen and (max-width: 900px) {
+  #contact > div {
+    padding: 0; }
+  input, textarea {
+    min-width: 99%; }
+  .gov-offices {
+    text-align: left; } }
