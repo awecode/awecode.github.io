@@ -16,7 +16,11 @@ h1 {
   font-size: 2rem; }
 
 section {
-  padding: 1rem; }
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 figure {
   border: 1px solid #fff; }
@@ -28,8 +32,7 @@ section.alt {
     color: #ddd; }
 
 #home {
-  height: 100%;
-  text-align: center;
+  height: calc(95% - 2rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,10 +47,11 @@ section.alt {
   margin: 1rem;
   text-align: left; }
   .work h3 {
+    min-width: 270px;
     border-bottom: 1px solid #444; }
   .work ul {
     list-style: none;
-    padding-left: 1rem; }
+    padding-left: 0; }
   .work li {
     padding-top: 0.4rem; }
 
@@ -56,7 +60,7 @@ section.alt {
   padding: 1.2rem; }
 
 #clients .gov-header {
-  text-align: center; }
+  margin-top: 3rem; }
   #clients .gov-header h4 {
     display: inline-block;
     vertical-align: top; }
@@ -65,30 +69,26 @@ section.alt {
   display: inline-block;
   list-style: none; }
 
-#clients .partners {
-  text-align: center; }
-  #clients .partners > div {
-    display: inline-block;
-    padding: 2rem; }
+#clients .partners > div {
+  display: inline-block;
+  padding: 2rem; }
 
-#expertise {
-  text-align: center; }
-  #expertise > div {
-    display: inline-block;
-    padding: 2rem; }
-  #expertise img {
-    height: 50px; }
+#expertise > div {
+  display: inline-block;
+  padding: 2rem; }
 
-#team {
-  text-align: center; }
-  #team > div {
-    display: inline-block;
-    padding: 2rem; }
-  #team img {
-    border-radius: 50%;
-    border: 10px solid #E4E3E3;
-    height: 6rem;
-    width: 6rem; }
+#expertise img {
+  height: 50px; }
+
+#team > div {
+  display: inline-block;
+  padding: 2rem; }
+
+#team img {
+  border-radius: 50%;
+  border: 10px solid #E4E3E3;
+  height: 6rem;
+  width: 6rem; }
 
 #contact > div {
   display: inline-block;
@@ -99,3 +99,17 @@ section.alt {
   padding: 0;
   min-height: 500px;
   min-width: 700px; }
+
+#contact .contact-info > div {
+  display: inline-block;
+  padding: 2rem; }
+
+input, textarea {
+  display: block;
+  min-width: 18rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem; }
+
+h1, h3, hr, .w-100 {
+  width: 100%; }

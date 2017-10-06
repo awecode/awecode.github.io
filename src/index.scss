@@ -21,6 +21,10 @@ h1 {
 
 section {
   padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 figure {
@@ -37,8 +41,7 @@ section.alt {
 }
 
 #home {
-  height: 100%;
-  text-align: center;
+  height: calc(95% - 2rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,12 +60,13 @@ section.alt {
   text-align: left;
 
   h3 {
+    min-width: 270px;
     border-bottom: 1px solid #444;
   }
 
   ul {
     list-style: none;
-    padding-left: 1rem;
+    padding-left: 0;
   }
   li {
     padding-top: 0.4rem;
@@ -75,7 +79,7 @@ section.alt {
     padding: 1.2rem;
   }
   .gov-header {
-    text-align: center;
+    margin-top: 3rem;
     h4 {
       display: inline-block;
       vertical-align: top;
@@ -88,8 +92,6 @@ section.alt {
   }
 
   .partners {
-    text-align: center;
-
     > div {
       display: inline-block;
       padding: 2rem;
@@ -98,7 +100,6 @@ section.alt {
 }
 
 #expertise {
-  text-align: center;
   > div {
     display: inline-block;
     padding: 2rem;
@@ -109,7 +110,6 @@ section.alt {
 }
 
 #team {
-  text-align: center;
   > div {
     display: inline-block;
     padding: 2rem;
@@ -122,8 +122,8 @@ section.alt {
   }
 }
 
-#contact{
-  >div{
+#contact {
+  > div {
     //width: 45%;
     display: inline-block;
     padding: 2rem;
@@ -134,5 +134,25 @@ section.alt {
     min-height: 500px;
     min-width: 700px;
     //height: 100%;
+  }
+  .contact-info >div{
+    display: inline-block;
+    padding: 2rem;
+  }
 }
+
+form{
+  //width: 80%;
+}
+
+input,textarea{
+  display: block;
+  min-width:18rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+h1, h3, hr, .w-100 {
+  width: 100%;
 }
