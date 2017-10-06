@@ -22,9 +22,6 @@ section {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-figure {
-  border: 1px solid #fff; }
-
 section.alt {
   background: #222;
   color: #ddd; }
@@ -33,7 +30,6 @@ section.alt {
 
 #home {
   height: 99%;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -41,7 +37,7 @@ section.alt {
 
 .work {
   display: inline-block;
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 1rem;
   margin: 1rem;
   text-align: left; }
   .work h3 {
@@ -53,9 +49,9 @@ section.alt {
   .work li {
     padding-top: 0.4rem; }
 
-#clients .logos > div {
+.row > div {
   display: inline-block;
-  padding: 1.2rem; }
+  padding: 2rem; }
 
 #clients .gov-header {
   margin-top: 3rem; }
@@ -68,20 +64,8 @@ section.alt {
   list-style: none;
   text-align: left; }
 
-#clients .partners > div {
-  display: inline-block;
-  padding: 2rem; }
-
-#expertise > div {
-  display: inline-block;
-  padding: 2rem; }
-
 #expertise img {
   height: 50px; }
-
-#team > div {
-  display: inline-block;
-  padding: 2rem; }
 
 #team img {
   border-radius: 50%;
@@ -91,16 +75,10 @@ section.alt {
 
 #contact {
   padding-bottom: 0; }
-  #contact > div {
-    display: inline-block;
-    padding: 2rem; }
   #contact #map-canvas {
     margin: 0;
     padding: 0;
     min-height: 500px; }
-  #contact .contact-info > div {
-    display: inline-block;
-    padding: 2rem; }
 
 input, textarea {
   display: block;

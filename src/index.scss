@@ -1,4 +1,4 @@
-html, body>div {
+html, body > div {
   height: 100%;
 }
 
@@ -27,10 +27,6 @@ section {
   justify-content: space-around;
 }
 
-figure {
-  border: 1px solid #fff
-}
-
 section.alt {
   background: #222;
   color: #ddd;
@@ -42,7 +38,6 @@ section.alt {
 
 #home {
   height: 99%;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -51,8 +46,7 @@ section.alt {
 
 .work {
   display: inline-block;
-  //float: left;
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 1rem;
   margin: 1rem;
   text-align: left;
 
@@ -60,7 +54,6 @@ section.alt {
     min-width: 270px;
     border-bottom: 1px solid #444;
   }
-
   ul {
     list-style: none;
     padding-left: 0;
@@ -70,11 +63,12 @@ section.alt {
   }
 }
 
+.row > div {
+  display: inline-block;
+  padding: 2rem;
+}
+
 #clients {
-  .logos > div {
-    display: inline-block;
-    padding: 1.2rem;
-  }
   .gov-header {
     margin-top: 3rem;
     h4 {
@@ -88,30 +82,15 @@ section.alt {
     list-style: none;
     text-align: left;
   }
-
-  .partners {
-    > div {
-      display: inline-block;
-      padding: 2rem;
-    }
-  }
 }
 
 #expertise {
-  > div {
-    display: inline-block;
-    padding: 2rem;
-  }
   img {
     height: 50px;
   }
 }
 
 #team {
-  > div {
-    display: inline-block;
-    padding: 2rem;
-  }
   img {
     border-radius: 50%;
     border: 10px solid #E4E3E3;
@@ -122,19 +101,11 @@ section.alt {
 
 #contact {
   padding-bottom: 0;
-  > div {
-    display: inline-block;
-    padding: 2rem;
-  }
   #map-canvas {
     margin: 0;
     padding: 0;
     min-height: 500px;
     //min-width: 700px;
-  }
-  .contact-info > div {
-    display: inline-block;
-    padding: 2rem;
   }
 }
 
@@ -174,7 +145,7 @@ h1, h3, hr, .w-100 {
   input, textarea {
     min-width: 99%;
   }
-  .gov-offices{
+  .gov-offices {
     text-align: left;
   }
 }
