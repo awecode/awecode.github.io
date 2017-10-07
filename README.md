@@ -5,11 +5,11 @@
 ## Setup
 
 ```
-    git clone 
-    https://github.com/awecode/awecode.github.io  
-    cd awecode.github.io  
-    yarn install  
-   yarn watch  
+git clone 
+https://github.com/awecode/awecode.github.io  
+cd awecode.github.io  
+yarn install  
+yarn watch  
 ```
 
 ## Build

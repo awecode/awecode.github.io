@@ -1,9 +1,26 @@
 {
   "name": "Awecode",
   "version": "2.0.0",
-  "description": "Wesbite for Awecode",
-  "main": "index.js",
-  "repository": "https://github.com/awecode/awecode.com",
+  "description": "Website for Awecode",
+  "homepage": "https://awecode.com",
+  "keywords": [
+    "awecode",
+    "nepal"
+  ],
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "bugs": {
+    "url": "https://github.com/awecode/awecode.github.io/issues"
+  },
+  "repository": "https://github.com/awecode/awecode.github.io",
+  "contributors": [
+    {
+      "name": "Dipesh Acharya",
+      "url": "https://github.com/xtranophilist/"
+    }
+  ],
   "author": "Dipesh Acharya",
   "license": "MIT",
   "scripts": {
