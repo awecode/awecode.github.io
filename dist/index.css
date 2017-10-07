@@ -39,7 +39,8 @@ section.alt {
   display: inline-block;
   padding: 1rem;
   margin: 1rem;
-  text-align: left; }
+  text-align: left;
+  max-width: 75%; }
   .work h3 {
     min-width: 270px;
     border-bottom: 1px solid #444; }
@@ -76,9 +77,12 @@ section.alt {
 #contact {
   padding-bottom: 0; }
 
+form {
+  min-width: 50%; }
+
 input, textarea {
   display: block;
-  min-width: 18rem;
+  min-width: 90%;
   line-height: 1.5rem;
   padding: 1rem;
   margin: 1rem auto; }
@@ -95,10 +99,6 @@ h1, h3, hr, .w-100 {
       opacity: 1; }
 
 @media screen and (max-width: 900px) {
-  #contact > div {
-    padding: 0; }
-  input, textarea {
-    min-width: 99%; }
   .gov-offices {
     text-align: left; } }
 

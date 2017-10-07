@@ -76,10 +76,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var position = new google.maps.LatLng(27.686149, 85.331765);
-
-
-
 
 new __WEBPACK_IMPORTED_MODULE_1__node_modules_vanilla_lazyload_dist_lazyload_min___default.a();
 
