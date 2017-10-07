@@ -324,27 +324,27 @@
 
         <h1>Reach Us</h1>
 
-        <div>
-            <div id="map-canvas"></div>
-
-            <div class="contact-info row">
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <div itemprop="streetAddress">410/28, Suvarna Marga</div>
-                    <div itemprop="addressLocality">Buddhanagar, New Baneshwor</div>
-                    <div>Kathmandu, Nepal</div>
-                </div>
-
-                <div class="contact-media">
+            <div class="contact-info">
+                
                     <div>Phone: <a href="tel:97716200351"><span itemprop="telephone"
                                                                 content="+97716200351">+977 (01) 6200351</span></a>
                     </div>
                     <div>Email: <span itemprop="email"><a href="mailto:info@awecode.com">info@awecode.com</a></span></div>
                     <div><a href="img/qr.svg" target="_blank" title="View QR Code">QR</a> |
                         <a href="awecode.vcf" target="_blank" title="Download vCard vcf">vCard</a></div>
+                
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <a href="https://www.google.com.np/maps/place/Awecode/@27.686149,85.331765,15z/data=!4m5!3m4!1s0x0:0x4fb96e0b0919445d!8m2!3d27.686149!4d85.331765" target="_blank" class="u">
+                        View Map
+                    </a>
+                    <div itemprop="streetAddress">410/28, Suvarna Marga</div>
+                    <div itemprop="addressLocality">Buddhanagar, New Baneshwor</div>
+                    <div>Kathmandu, Nepal</div>
                 </div>
+
                 <meta itemprop="openingHours" datetime="Su-Fr 10:00-19:00"/>
             </div>
-        </div>
+        
 
         <div>
             <form class="message" method="POST" action="https://formspree.io/info@awecode.com">
@@ -380,8 +380,5 @@
     </section>
 </div>
 <script type="text/javascript" src="dist/index.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiXP08usajqSoj7Ge69srh1BVJXx1Ds8M&callback=init_map"
-        type="text/javascript"></script>
 </body>
 </html>
