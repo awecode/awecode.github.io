@@ -215,8 +215,7 @@ ul{
       margin: 0 27px;
       
       .desc {
-        color: #ececec;
-        font-family: 'Expletus Sans', cursive;
+        color:#c1c1c1;
         display: block;
         margin-top: 5px;
       }
@@ -226,7 +225,7 @@ ul{
         padding: 8px 8px;
 
         &.icon {
-          fill: rgba(255, 255, 255, 1);
+          fill:#c1c1c1;
           stroke-width:0;
           stroke-miterlimit:5;
           cursor: crosshair;
@@ -285,125 +284,16 @@ ul{
 }
 
 
-// All Individual Icons
-
 .web-design {
   @include drawIcon('webDesignAnim', 405);
 }
 
-.backend {
+.backend, .mobile {
   @include drawIcon('backendAnim', 200);
 }
 
-.mobile {
-  @include drawIcon('mobileAnim', 200);
-}
 
-// Customize Part of Animation for Code Icon
-.code { 
-  fill: none;           // no fill
-  //stroke: #fff;
-  stroke-width: 1;
-  $cmsAnim: 'codeAnim';
-  @include drawIcon($cmsAnim, 290);
-  
-  svg:hover & {
-    -webkit-animation: codeFadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $cmsAnim 1.9s .65s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
-    animation: codeFadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $cmsAnim 1.9s .65s cubic-bezier(0.47, 0, 0.745, 0.715) forwards; 
-  }
-  
-  @keyframes codeFadeOut {
-    0% { stroke-width: 1px; }
-    100% { stroke-width: 0px; }
-  }
-}
-
-.pie-chart {
-  @include drawIcon('pieChartAnim', 380);
-}
-
-.dev-plan {
-  @include drawIcon('devPlanAnim', 525);
-}
-
-.responsive {
-  @include drawIcon('responsiveAnim', 350, .5px, 'responsiveFadeIn');
-}
-
-.responsive2 {
-  @include drawIcon('responsive2Anim', 23, .1px, 'responsive2FadeIn');
-}
-
-.network {
-  @include drawIcon('networkAnim', 330);
-}
-
-.tech {
-  @include drawIcon('techAnim', 720);
-}
 
 .creativity {
   @include drawIcon('creativityAnim', 602);
-}
-
-.security {
-  @include drawIcon('securityAnim', 480, .7px, 'securityFadeIn');
-}
-
-.building {
-  @include drawIcon('buildingAnim', 190);
-}
-
-.burj-khalifa {
-  @include drawIcon('burjKhalifaAnim', 450, .5px, 'burjKhalifaFadeIn');
-}
-
-.road {
-  @include drawIcon('roadAnim', 740);
-}
-
-
-// Custom Animations for Skyline
-.skyline {
-  & {
-    stroke-dasharray: 2400;
-  }
-
-  svg:hover & {
-    -webkit-animation: fadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineDraw 5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineFadeIn 1s 6.7s forwards;
-    animation: fadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineDraw 5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineFadeIn 1s 6.7s forwards; 
-  }
-  
-  @keyframes fadeOut {
-    from { fill: rgba(255, 255, 255, 1) }
-    to { fill: rgba(255, 255, 255, 0) }
-  }
-
-  @keyframes skylineDraw { 
-    0% {
-      stroke-width: 1px;    // defaults to 1px
-      stroke-dashoffset: 2400;
-    } 
-    75% { 
-      stroke-dashoffset: 4792;
-    }
-    90% {
-      stroke-dashoffset: 4792;
-    }
-    100% {
-      stroke-width: 1px;
-      stroke-dashoffset: 4800;
-    }
-  }
-  
-  @keyframes skylineFadeIn {
-    from { 
-      fill: rgba(255, 255, 255, 0);
-      stroke-width: 1px;
-    }
-    to { 
-      fill: rgba(255, 255, 255, 1);
-      stroke-width: 0px;
-    }
-  }
 }
