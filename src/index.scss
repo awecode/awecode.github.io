@@ -137,10 +137,273 @@ h1, h3, hr, .w-100 {
   .gov-offices {
     text-align: left;
   }
+  #solutions li{
+    width: 80% !important;
+  }
 }
 
 .u{
   text-decoration: underline;
   margin-top: 1rem;
   display: inline-block;
+}
+
+#solutions{
+ul{
+  position: relative;
+}
+
+  li, li:before {
+    transition: all .4s;
+    
+  }
+  ul:hover li {
+    opacity: .4;
+  }
+  li {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #aaa;
+    background: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 40%;
+    min-height: 4rem;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: default;
+  }
+  li:before {
+    content: "";
+    position: absolute;
+    left:0; bottom:0; top:0;
+    width: 20px;
+    background: #444;
+  }
+  li:nth-child(even):before {
+    background: #565656;
+  }
+  li + li {
+    border-top: 2px solid #222;
+  }
+  ul li:hover,
+  ul li:focus {
+    opacity: 1;
+    padding-left: 55px;
+  }
+  ul li:hover:before,
+  ul li:focus:before {
+    width: 30px;
+  }
+}
+
+
+.solutions-wrapper{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 65px;
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    
+    .icon-wrapper {
+      margin: 0 27px;
+      
+      .desc {
+        color: #ececec;
+        font-family: 'Expletus Sans', cursive;
+        display: block;
+        margin-top: 5px;
+      }
+      
+      svg {
+        display:inline-block;
+        padding: 8px 8px;
+
+        &.icon {
+          fill: rgba(255, 255, 255, 1);
+          stroke-width:0;
+          stroke-miterlimit:5;
+          cursor: crosshair;
+        }
+      }
+
+      linearGradient{
+        -webkit-transform:rotate(135deg);
+        transform:rotate(135deg);
+      }
+    }
+  }
+}
+
+
+// _______ SVG Draw Mixin _______
+
+@mixin drawIcon($animName, $strokeDashArray, $strokeWidth: 1px, $fadeInAnim: 'fadeIn') {
+  /* default case uses 1px stroke-width 
+     and 'fadeIn' as the fade in animation name */
+  & {
+    stroke-dasharray: $strokeDashArray;
+  }
+
+  svg:hover & {
+    -webkit-animation: fadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $animName 1.9s .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $fadeInAnim 1s 2.5s forwards;
+    animation: fadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $animName 1.9s .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $fadeInAnim 1s 2.5s forwards; 
+  }
+  
+  @keyframes fadeOut {
+    from { fill: rgba(255, 255, 255, 1) }
+    to { fill: rgba(255, 255, 255, 0) }
+  }
+
+  @keyframes #{$animName} { 
+    from {
+      stroke-width: $strokeWidth;    // defaults to 1px
+      stroke-dashoffset: $strokeDashArray;
+    } 
+    to { 
+      stroke-width: $strokeWidth;
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes #{$fadeInAnim} {
+    from { 
+      fill: rgba(255, 255, 255, 0);
+      stroke-width: $strokeWidth;
+    }
+    to { 
+      fill: rgba(255, 255, 255, 1);
+      stroke-width: 0px;
+    }
+  }
+}
+
+
+// All Individual Icons
+
+.web-design {
+  @include drawIcon('webDesignAnim', 405);
+}
+
+.backend {
+  @include drawIcon('backendAnim', 200);
+}
+
+.mobile {
+  @include drawIcon('mobileAnim', 200);
+}
+
+// Customize Part of Animation for Code Icon
+.code { 
+  fill: none;           // no fill
+  //stroke: #fff;
+  stroke-width: 1;
+  $cmsAnim: 'codeAnim';
+  @include drawIcon($cmsAnim, 290);
+  
+  svg:hover & {
+    -webkit-animation: codeFadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $cmsAnim 1.9s .65s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+    animation: codeFadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, $cmsAnim 1.9s .65s cubic-bezier(0.47, 0, 0.745, 0.715) forwards; 
+  }
+  
+  @keyframes codeFadeOut {
+    0% { stroke-width: 1px; }
+    100% { stroke-width: 0px; }
+  }
+}
+
+.pie-chart {
+  @include drawIcon('pieChartAnim', 380);
+}
+
+.dev-plan {
+  @include drawIcon('devPlanAnim', 525);
+}
+
+.responsive {
+  @include drawIcon('responsiveAnim', 350, .5px, 'responsiveFadeIn');
+}
+
+.responsive2 {
+  @include drawIcon('responsive2Anim', 23, .1px, 'responsive2FadeIn');
+}
+
+.network {
+  @include drawIcon('networkAnim', 330);
+}
+
+.tech {
+  @include drawIcon('techAnim', 720);
+}
+
+.creativity {
+  @include drawIcon('creativityAnim', 602);
+}
+
+.security {
+  @include drawIcon('securityAnim', 480, .7px, 'securityFadeIn');
+}
+
+.building {
+  @include drawIcon('buildingAnim', 190);
+}
+
+.burj-khalifa {
+  @include drawIcon('burjKhalifaAnim', 450, .5px, 'burjKhalifaFadeIn');
+}
+
+.road {
+  @include drawIcon('roadAnim', 740);
+}
+
+
+// Custom Animations for Skyline
+.skyline {
+  & {
+    stroke-dasharray: 2400;
+  }
+
+  svg:hover & {
+    -webkit-animation: fadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineDraw 5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineFadeIn 1s 6.7s forwards;
+    animation: fadeOut .5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineDraw 5s cubic-bezier(0.47, 0, 0.745, 0.715) forwards, skylineFadeIn 1s 6.7s forwards; 
+  }
+  
+  @keyframes fadeOut {
+    from { fill: rgba(255, 255, 255, 1) }
+    to { fill: rgba(255, 255, 255, 0) }
+  }
+
+  @keyframes skylineDraw { 
+    0% {
+      stroke-width: 1px;    // defaults to 1px
+      stroke-dashoffset: 2400;
+    } 
+    75% { 
+      stroke-dashoffset: 4792;
+    }
+    90% {
+      stroke-dashoffset: 4792;
+    }
+    100% {
+      stroke-width: 1px;
+      stroke-dashoffset: 4800;
+    }
+  }
+  
+  @keyframes skylineFadeIn {
+    from { 
+      fill: rgba(255, 255, 255, 0);
+      stroke-width: 1px;
+    }
+    to { 
+      fill: rgba(255, 255, 255, 1);
+      stroke-width: 0px;
+    }
+  }
 }
