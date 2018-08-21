@@ -181,9 +181,6 @@ ul{
     width: 20px;
     background: #444;
   }
-  li:nth-child(even):before {
-    background: #565656;
-  }
   li + li {
     border-top: 2px solid #222;
   }
