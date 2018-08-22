@@ -157,6 +157,8 @@ h1, h3, hr, .w-100 {
 #solutions{
 ul{
   position: relative;
+  padding: 0;
+  max-width: 900px;
 }
 
   li, li:before {

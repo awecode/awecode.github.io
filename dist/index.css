@@ -116,7 +116,9 @@ h1, h3, hr, .w-100 {
   display: inline-block; }
 
 #solutions ul {
-  position: relative; }
+  position: relative;
+  padding: 0;
+  max-width: 900px; }
 
 #solutions li, #solutions li:before {
   transition: all .4s; }
