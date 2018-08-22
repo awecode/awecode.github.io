@@ -20,7 +20,7 @@ h1 {
 }
 
 section {
-  padding: 1rem;
+  padding: 1rem 1rem 4rem;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +41,8 @@ section.alt {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 5%;
+  // padding-top: 5%;
+  padding-bottom: 0;
 }
 
 .work {
@@ -70,7 +71,6 @@ section.alt {
 }
 
 #clients {
-  font-size: .8rem;
   .gov-header {
     margin-top: 3rem;
     h4 {
@@ -93,7 +93,6 @@ section.alt {
 }
 
 #team {
-  font-size: .8rem;
   img {
     border-radius: 50%;
     border: 10px solid #E4E3E3;
@@ -219,7 +218,6 @@ ul{
         color:#c1c1c1;
         display: block;
         margin-top: 5px;
-        font-size: 0.8rem;
       font-weight: bold;
       }
       

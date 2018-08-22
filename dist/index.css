@@ -16,7 +16,7 @@ h1 {
   font-size: 2rem; }
 
 section {
-  padding: 1rem;
+  padding: 1rem 1rem 4rem;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -33,7 +33,7 @@ section.alt {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 5%; }
+  padding-bottom: 0; }
 
 .work {
   display: inline-block;
@@ -54,28 +54,25 @@ section.alt {
   display: inline-block;
   padding: 2rem; }
 
-#clients {
-  font-size: .8rem; }
-  #clients .gov-header {
-    margin-top: 3rem; }
-    #clients .gov-header h4 {
-      display: inline-block;
-      vertical-align: top; }
-  #clients ul {
+#clients .gov-header {
+  margin-top: 3rem; }
+  #clients .gov-header h4 {
     display: inline-block;
-    list-style: none;
-    text-align: left; }
+    vertical-align: top; }
+
+#clients ul {
+  display: inline-block;
+  list-style: none;
+  text-align: left; }
 
 #expertise img {
   height: 50px; }
 
-#team {
-  font-size: .8rem; }
-  #team img {
-    border-radius: 50%;
-    border: 10px solid #E4E3E3;
-    height: 6rem;
-    width: 6rem; }
+#team img {
+  border-radius: 50%;
+  border: 10px solid #E4E3E3;
+  height: 6rem;
+  width: 6rem; }
 
 #contact {
   padding-bottom: 0;
@@ -173,7 +170,6 @@ h1, h3, hr, .w-100 {
       color: #c1c1c1;
       display: block;
       margin-top: 5px;
-      font-size: 0.8rem;
       font-weight: bold; }
     .solutions-wrapper .row .icon-wrapper svg {
       display: inline-block;
