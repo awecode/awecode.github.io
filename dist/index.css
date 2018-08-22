@@ -20,7 +20,7 @@ section {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: center; }
 
 section.alt {
   background: #222;
