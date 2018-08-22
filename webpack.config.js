@@ -40,7 +40,8 @@ module.exports = {
     new ExtractTextPlugin({ filename: '[name].css', allChunks: true }),
     new HtmlWebpackPlugin({  // Also generate a test.html
       filename: '../index.html',
-      template: 'index_src.html'
+      template: 'index_src.html',
+      inject: false
     })
   ]
 };

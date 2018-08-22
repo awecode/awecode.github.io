@@ -70,6 +70,7 @@ section.alt {
 }
 
 #clients {
+  font-size: .8rem;
   .gov-header {
     margin-top: 3rem;
     h4 {
@@ -92,6 +93,7 @@ section.alt {
 }
 
 #team {
+  font-size: .8rem;
   img {
     border-radius: 50%;
     border: 10px solid #E4E3E3;
@@ -102,6 +104,7 @@ section.alt {
 
 #contact {
   padding-bottom: 0;
+  justify-content: space-evenly;
 }
 
 form {
@@ -140,6 +143,9 @@ h1, h3, hr, .w-100 {
   #solutions li{
     width: 80% !important;
   }
+  .solutions-wrapper .row {
+    flex-wrap: wrap;
+  }
 }
 
 .u{
@@ -168,7 +174,7 @@ ul{
     background: #333;
     text-decoration: none;
     text-transform: uppercase;
-    width: 40%;
+    width: 49%;
     min-height: 4rem;
     padding: 1rem;
     font-weight: bold;
@@ -204,17 +210,15 @@ ul{
   
   .row {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 10px 0;
-    
     .icon-wrapper {
-      margin: 0 27px;
       
       .desc {
         color:#c1c1c1;
         display: block;
         margin-top: 5px;
+        font-size: 0.8rem;
+      font-weight: bold;
       }
       
       svg {

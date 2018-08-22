@@ -54,28 +54,32 @@ section.alt {
   display: inline-block;
   padding: 2rem; }
 
-#clients .gov-header {
-  margin-top: 3rem; }
-  #clients .gov-header h4 {
+#clients {
+  font-size: .8rem; }
+  #clients .gov-header {
+    margin-top: 3rem; }
+    #clients .gov-header h4 {
+      display: inline-block;
+      vertical-align: top; }
+  #clients ul {
     display: inline-block;
-    vertical-align: top; }
-
-#clients ul {
-  display: inline-block;
-  list-style: none;
-  text-align: left; }
+    list-style: none;
+    text-align: left; }
 
 #expertise img {
   height: 50px; }
 
-#team img {
-  border-radius: 50%;
-  border: 10px solid #E4E3E3;
-  height: 6rem;
-  width: 6rem; }
+#team {
+  font-size: .8rem; }
+  #team img {
+    border-radius: 50%;
+    border: 10px solid #E4E3E3;
+    height: 6rem;
+    width: 6rem; }
 
 #contact {
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  justify-content: space-evenly; }
 
 form {
   min-width: 50%; }
@@ -102,7 +106,9 @@ h1, h3, hr, .w-100 {
   .gov-offices {
     text-align: left; }
   #solutions li {
-    width: 80% !important; } }
+    width: 80% !important; }
+  .solutions-wrapper .row {
+    flex-wrap: wrap; } }
 
 .u {
   text-decoration: underline;
@@ -126,7 +132,7 @@ h1, h3, hr, .w-100 {
   background: #333;
   text-decoration: none;
   text-transform: uppercase;
-  width: 40%;
+  width: 49%;
   min-height: 4rem;
   padding: 1rem;
   font-weight: bold;
@@ -160,26 +166,24 @@ h1, h3, hr, .w-100 {
   margin-bottom: 65px; }
   .solutions-wrapper .row {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0; }
-    .solutions-wrapper .row .icon-wrapper {
-      margin: 0 27px; }
-      .solutions-wrapper .row .icon-wrapper .desc {
-        color: #c1c1c1;
-        display: block;
-        margin-top: 5px; }
-      .solutions-wrapper .row .icon-wrapper svg {
-        display: inline-block;
-        padding: 8px 8px; }
-        .solutions-wrapper .row .icon-wrapper svg.icon {
-          fill: #c1c1c1;
-          stroke-width: 0;
-          stroke-miterlimit: 5;
-          cursor: crosshair; }
-      .solutions-wrapper .row .icon-wrapper linearGradient {
-        -webkit-transform: rotate(135deg);
-        transform: rotate(135deg); }
+    justify-content: center; }
+    .solutions-wrapper .row .icon-wrapper .desc {
+      color: #c1c1c1;
+      display: block;
+      margin-top: 5px;
+      font-size: 0.8rem;
+      font-weight: bold; }
+    .solutions-wrapper .row .icon-wrapper svg {
+      display: inline-block;
+      padding: 8px 8px; }
+      .solutions-wrapper .row .icon-wrapper svg.icon {
+        fill: #c1c1c1;
+        stroke-width: 0;
+        stroke-miterlimit: 5;
+        cursor: crosshair; }
+    .solutions-wrapper .row .icon-wrapper linearGradient {
+      -webkit-transform: rotate(135deg);
+      transform: rotate(135deg); }
 
 .web-design {
   /* default case uses 1px stroke-width 
