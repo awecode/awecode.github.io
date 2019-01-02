@@ -298,3 +298,7 @@ ul{
 .creativity {
   @include drawIcon('creativityAnim', 602);
 }
+
+.gov-offices li img {
+  margin-right: 0.4em;
+}
