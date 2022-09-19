@@ -1,0 +1,16 @@
+- Optical Character Recognition (OCR)
+- e-KYC System
+- Face Recognition Solution
+- Video Conference Solution
+- E-ticketing System
+- Bulk SMS System
+- Missed-call System
+- E-commerce Solution
+- Enterprise Document Management System
+- Inventory Control System
+- Human Resource Information System
+- Fantasy Sports Application
+- Ebooks Publication
+- Print-on-demand Book Publication
+- Digital Music Distribution
+- Content Management System
