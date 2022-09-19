@@ -1,0 +1,30 @@
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Central Bureau of Statistics
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Central Region Irrigation Directorate
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Earthquake Emergency Assistance Project
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Department of Labor
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Department of Land Information and Archive
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Department of Urban Development and Building Construction
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Directorate of Agriculture Training
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Directorate of Livestock Market Promotion
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) District Technical Office, Kathmandu
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Federal Drinking Water and Sewage Management Project
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Film Development Board
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Health Insurance Board
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Inland Revenue Office, Bhairahawa
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Inland Revenue Office, Chitwan
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Land Revenue Office, Kathmandu
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Ministry of Law, Justice and Parliamentary Affairs
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Ministry of Women, Children and Social Welfare
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) National Women Commission
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) National Agriculture Research & Development Fund
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) National Ayurveda Research & Training Center
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Nepal Copyright Registrar's Office
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Office of Cottage and Small Industries
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Postal Highway Directorate
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Shahid Dharma Bhakta National Transplant Center
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Sikta Irrigation Project, Nepalgunj
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Social Health Security Development Committee
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Skills Development Project
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Survey Department, Kathmandu
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Taxpayers Service Office
+- ![coatOfArms](http://www.nepal.gov.np/splash/nepal-govt.png) Rural Reconstruction & Rehabilitation Sector Development Program

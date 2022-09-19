@@ -1,0 +1,5 @@
+- [![Lumbini Development Trust](/img/clients/ldt.png)](https://lumbinidevtrust.gov.np/en)
+- [![kitab](/img/clients/kitab.png)](https://kitabpublishers.com/)
+- [![nepathya](/img/clients/nepathya.png)](http://nepathya.com.np/)
+- [![nepalaya](/img/clients/nepalaya.svg)](https://nepalaya.com.np/)
+- [![shilpee](/img/clients/shilpee.png)](https://shilpee.org/)
